@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httmultiparty (0.3.16)
+      httparty (>= 0.7.3)
+      mimemagic
+      multipart-post
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    mimemagic (0.3.2)
+    multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    rake (12.1.0)
+    sentry-api (0.3.3)
+      httmultiparty (~> 0.3.16)
+    statsd-ruby (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  sentry-api
+  statsd-ruby
+
+BUNDLED WITH
+   1.15.1
