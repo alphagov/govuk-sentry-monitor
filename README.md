@@ -12,7 +12,7 @@ Script to report the number of errors in Sentry to Graphite. The result is displ
 
 [sentry-d]: https://grafana.publishing.service.gov.uk/dashboard/db/sentry
 [2nd]: https://grafana.publishing.service.gov.uk/dashboard/file/2ndline_health.json
-[jj]: https://deploy.publishing.service.gov.uk/job/govuk-sentry-monitor
+[jj]: https://deploy.publishing.service.gov.uk/job/Check_Sentry_Errors/
 [rr]: /Rakefile
 [stats]: https://docs.sentry.io/api/projects/get-project-stats/
 [gauge]: http://statsd.readthedocs.io/en/v0.5.0/types.html#gauges
