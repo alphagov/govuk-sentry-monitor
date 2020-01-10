@@ -10,7 +10,7 @@ Script to report the number of errors in Sentry to Graphite. The result is displ
 - The script then send the total count per app for the last hour to the Statsd process as a  ["gauge"][gauge]
 - Statsd [sends the metric over to Graphite][graphite], which means we can [use it in Grafana][sentry-d]
 
-[sentry-d]: https://grafana.publishing.service.gov.uk/dashboard/db/sentry
+[sentry-d]: https://grafana.publishing.service.gov.uk/dashboard/file/sentry_errors_across_all_environments.json
 [2nd]: https://grafana.publishing.service.gov.uk/dashboard/file/2ndline_health.json
 [jj]: https://deploy.publishing.service.gov.uk/job/Check_Sentry_Errors/
 [rr]: /Rakefile
