@@ -10,7 +10,7 @@ GEM
     mimemagic (0.3.2)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
-    rake (12.1.0)
+    rake (12.3.3)
     sentry-api (0.3.3)
       httmultiparty (~> 0.3.16)
     statsd-ruby (1.4.0)
